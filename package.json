@@ -1,0 +1,45 @@
+{
+    "name": "toxicfx.org",
+    "version": "1.0.0",
+    "description": "Official Website for ToxicFX.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "body-parser": "1.19.0",
+        "canvas": "^2.6.1",
+        "canvas-constructor": "kyranet/CanvasConstructor",
+        "colors": "^1.4.0",
+        "cookie-parser": "^1.4.4",
+        "discord.js": "^12.2.0",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.0.1",
+        "express": "^4.16.3",
+        "is-html": "^2.0.0",
+        "is-url": "1.2.4",
+        "klasa": "^0.5.0",
+        "module-alias": "^2.2.2",
+        "mongoose": "^5.9.10",
+        "moment": "^2.29.1",
+        "node-fetch": "^2.6.0",
+        "node-pre-gyp": "^0.14.0",
+        "parse-ms": "^2.1.0",
+        "showdown": "^1.9.1",
+        "unirest": "^0.6.0",
+        "os": "^0.1.1",	
+        "os-utils": "^0.0.14"
+    },
+    "engines": {
+        "node": "12.x"
+    },
+    "_moduleAliases": {
+        "@root": ".",
+        "@bot": "./client",
+        "@utils": "./utils",
+        "@routes": "./routes",
+        "@Database": "./client/mongo",
+        "@structures": "./structures",
+        "@models": "./models"
+    }
+}
