@@ -1,4 +1,4 @@
-# toxicfx.org
+# api.toxicfx.org
 Official API Website, Loading Screen Pages, CDN and More for ToxicFX
 
 ## Support
