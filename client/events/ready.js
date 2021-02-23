@@ -19,28 +19,7 @@ let onlineColor ='#3FCF45'
 
 let activities = [
     {
-      name: 'https://toxicfx.org',
-      options: {
-        type: 'STREAMING',
-        url: "https://www.twitch.tv/monstercat"
-      }
-    },
-    {
-      name: 'Website: Online',
-      options: {
-        type: 'STREAMING',
-        url: "https://www.twitch.tv/monstercat"
-      }
-    },
-    {
-      name: 'Docs: Online',
-      options: {
-        type: 'STREAMING',
-        url: "https://www.twitch.tv/monstercat"
-      }
-    },
-    {
-      name: 'Status Bot: Online',
+      name: 'https://api.toxicfx.org',
       options: {
         type: 'STREAMING',
         url: "https://www.twitch.tv/monstercat"
