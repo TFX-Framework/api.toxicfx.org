@@ -4,7 +4,7 @@ const route = Router();
 
 route.get('/', (req, res) => {
 
-    let project_name = 'ToxicFX Website'
+    let project_name = 'ToxicFX API'
 
     let current_version = '1.0.0'
 
