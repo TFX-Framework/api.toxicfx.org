@@ -28,6 +28,10 @@ const grim_bot_project = require('./v1/projects/grimreaper/bot');
 route.use('/404', not_found);
 route.use('/500', int_error);
 
+route.use('/api/v1/versions/website', website_versions);
+route.use('/api/v1/versions/api', api_versions);
+
+
 route.use('/v1/loading/awrp', loading_afterwatch_main);
 route.use('/v1/loading/toxicfx', loading_toxicfx_testing);
 route.use('/v1/loading/default', loading_default_page);
