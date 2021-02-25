@@ -36,6 +36,7 @@ route.use('/api/v1/versions/api', api_versions);
 route.use('/v1/loading/awrp', loading_afterwatch_main);
 route.use('/v1/loading/toxicfx', loading_toxicfx_testing);
 route.use('/v1/loading/default', loading_default_page);
+route.use('/v1/loading/demo', loading_demo_page);
 
 route.use('/v1/projects/reaper', grim_bot_project);
 
