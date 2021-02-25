@@ -15,6 +15,7 @@ const loading_afterwatch_main = require('./v1/loading/afterwatch/main');
 */
 const loading_toxicfx_testing = require('./v1/loading/toxicfx/testing');
 const loading_default_page = require('./v1/loading/default');
+const loading_demo_page = require('./v1/loading/demo/index');
 
 const website_versions = require('./v1/versions/api');
 const api_versions = require('./v1/versions/website');
