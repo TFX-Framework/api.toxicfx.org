@@ -32,7 +32,7 @@ route.use('/500', int_error);
 
 route.use('/api/v1/versions/website', website_versions);
 route.use('/api/v1/versions/api', api_versions);
-route.use('/api/v1/versions/community-cad', com_cad_versions);
+route.use('/v1/versions/community-cad', com_cad_versions);
 
 
 route.use('/v1/loading/awrp', loading_afterwatch_main);
