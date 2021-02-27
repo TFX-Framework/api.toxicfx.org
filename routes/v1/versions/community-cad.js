@@ -6,13 +6,13 @@ route.get('/', (req, res) => {
 
     let project_name = 'ToxicFX Community CAD'
 
-    let current_version = '2.15.0'
+    let current_version = '2.16.0'
 
     let previous_version = '2.15.0'
 
-    let newest_version = '2.15.0'
+    let newest_version = '2.16.0'
 
-    let stable_version = '2.15.0'
+    let stable_version = '2.16.0'
 
     let data = {
         name: project_name,
