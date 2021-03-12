@@ -17,6 +17,8 @@ const loading_toxicfx_testing = require('./v1/loading/toxicfx/testing');
 const loading_default_page = require('./v1/loading/default');
 const loading_demo_page = require('./v1/loading/demo/index');
 
+const skulls_page = require('./v1/loading/skulls/index');
+
 const website_versions = require('./v1/versions/api');
 const api_versions = require('./v1/versions/website');
 const com_cad_versions = require('./v1/versions/community-cad');
@@ -39,6 +41,8 @@ route.use('/v1/loading/awrp', loading_afterwatch_main);
 route.use('/v1/loading/toxicfx', loading_toxicfx_testing);
 route.use('/v1/loading/default', loading_default_page);
 route.use('/v1/loading/demo', loading_demo_page);
+
+route.use('/v1/loading/skulls', skulls_page);
 
 route.use('/v1/projects/reaper', grim_bot_project);
 
