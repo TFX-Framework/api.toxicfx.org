@@ -16,6 +16,7 @@ const loading_afterwatch_main = require('./v1/loading/afterwatch/main');
 const loading_toxicfx_testing = require('./v1/loading/toxicfx/testing');
 const loading_default_page = require('./v1/loading/default');
 const loading_demo_page = require('./v1/loading/demo/index');
+const loading_njrp = require ('./v1/loading/njrp/index);
 
 const skulls_page = require('./v1/loading/skulls/index');
 
@@ -43,6 +44,7 @@ route.use('/v1/loading/default', loading_default_page);
 route.use('/v1/loading/demo', loading_demo_page);
 
 route.use('/v1/loading/skulls', skulls_page);
+route.use('/v1/loading/njrp', loading_njrp);
 
 route.use('/v1/projects/reaper', grim_bot_project);
 
