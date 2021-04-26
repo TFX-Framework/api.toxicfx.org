@@ -11,5 +11,9 @@ route.get('/', (req, res) => {
   }));
 });
 
+route.get('/', (req, res) => {
+  res.redirect('')
+});
+
 
 module.exports = route;
