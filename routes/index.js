@@ -51,7 +51,7 @@ route.use('/v1/projects/reaper', grim_bot_project);
 route.get('/', (req, res) => {
 
   res.status('200').send(JSON.stringify({ 
-    message: 'Welcome to the Official API for ToxicFX',
+    message: 'Welcome to the Official API for the DisPurge Discord Bot',
     status: '200',
     error: false
   }));
