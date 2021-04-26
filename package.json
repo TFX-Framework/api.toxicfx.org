@@ -1,6 +1,6 @@
 {
     "name": "api.toxicfx.org",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Official Website for ToxicFX.",
     "main": "index.js",
     "scripts": {
