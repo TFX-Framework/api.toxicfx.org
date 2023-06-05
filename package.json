@@ -23,7 +23,7 @@
         "mongoose": "^5.9.10",
         "moment": "^2.29.1",
         "node-fetch": "^2.6.0",
-        "node-pre-gyp": "^0.14.0",
+        "node-pre-gyp": "^0.17.0",
         "parse-ms": "^2.1.0",
         "showdown": "^1.9.1",
         "unirest": "^0.6.0",
